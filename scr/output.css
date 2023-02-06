@@ -795,6 +795,10 @@ video {
   padding-right: 2.5rem;
 }
 
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
 .text-center {
   text-align: center;
 }
