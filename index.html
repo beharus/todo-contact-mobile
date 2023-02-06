@@ -1,292 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./scr/output.css">
+    <link rel="stylesheet" href="./scr/output.css" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body class="max-2xl mx-auto">
-    <nav data-aos="zoom-in-down" class="navbar fixed top-0 left-0 w-full bg-white shadow z-50">
-        <div class="container m-auto flex justify-between items-center py-4">
-            <img class="md:col-span-2 pl-4" src="./img/IMAGE (22).png" alt="">
-            <div class="menu hidden md:col-span-10 md:flex md:justify-between md:items-center">
-                <ul class=" md:flex md:mr-16">
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Home</li>
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">About</li>
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">pricing</li>
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Blog</li>
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Faq</li>
-                    <li class="mr-3 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">contact</li>
-                </ul>
-            <div class="button md:w-auto border-blue-500 border-2 w-3/4  rounded-3xl py-3 px-4 bg-blue-500 text-center ease-out duration-700 text-white font-oswald font-normal cursor-pointer hover:text-black hover:bg-transparent">Purchase template</div>
-            </div>
-            <button class="block md:hidden px-4 py-3 mx-2 ease-in rounded-lg focus:outline-none hover:bg-gray-200 group">
-                <div class="w-6 h-1 bg-black mb-1 rounded-2xl"></div>
-                <div class="w-6 h-1 bg-black mb-1 rounded-2xl"></div>
-                <div class="w-6 h-1 bg-black mb-1 rounded-2xl"></div>
-                <div class="absolute -right-96 top-0 h-screen w-8/12 bg-white border shadow-sm transform opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
-                    <div class="menu flex flex-col items-center cursor-pointer w-full pt-20">
-                        <ul class="w-full">
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Home</li>
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">About</li>
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">pricing</li>
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Blog</li>
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">Faq</li>
-                            <li class="py-4 px-6 w-full hover:bg-blue-200 uppercase ease-in duration-500 font-oswald font-normal cursor-pointer hover:text-blue-500 ">contact</li>
-                        </ul>
-                    <div class="button md:w-auto border-blue-500 border-2 w-3/4  rounded-3xl py-3 px-4 bg-blue-500 text-center ease-out duration-700 text-white font-oswald font-normal cursor-pointer hover:text-black hover:bg-transparent">Purchase template</div>
-                    </div>
-                </div>
-            </button>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="w-screen py-5 responsive min-h-screen grid bg-no-repeat items-center">
+    <div class="changecolor absolute right-2 top-2 rounded-2xl px-8 py-4 font-oswald text-2xl hover:bg-black border-black border-2 duration-300 bg-[#1113] hover:text-white">change color</div>
+    <div
+      class="max-w-[414px] w-full rounded-[55px] bg-[#111] mx-auto flex shadow-xl shadow-white items-center h-[896px]">
+      <div
+        class="relative max-w-[390px] w-[92%] max-h-[844px] h-full bg-[#ccc] rounded-[35px] mx-auto">
+        <div class="absolute bg-[#5e5e5e] rounded-t-[35px] h-[35px] top-0 left-0 right-0">
+          <div class="relative">
+            <span id="span" class="absolute right-2 top-2 text-white font-oswald"></span>
+            <div class="absolute w-[120px] left-0 mx-auto right-0 h-[25px] rounded-b-[20px] bg-[#111]"></div>
+          </div>
         </div>
-    </nav>
-    
-
-
-        <div class="container grid mx-auto col-span-10 md:grid-cols-9 md:gap-5 md:justify-center md:gap-y-10 items-center justify-center px-8 mt-40">
-            <div data-aos="zoom-in-right" data-aos-anchor-placement="center-bottom" class="md:col-span-4 md:px-0 col-span-6 pb-6">
-                <h1 class="text-6xl font-normal font-oswald">Digital Marketing. Creative Design.</h1>
-                <p class="mt-8 font-roboto">"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."</p>
-                <div class="grid grid-cols-12 gap-2 pt-4 items-center md:justify-start">
-                    <img class="col-span-3" src="./img/IMAGE (1).png" alt="">
-                    <div class="col-span-8 font-oswald">
-                        <p>Samantha Norton</p>
-                        <img src="./img/Frame.png" alt="">
-                    </div>
-                </div>
-                <div class="border-2 font-oswald border-amber-500 md:w-3/4 mt-12 text-center rounded-3xl text-white ease-in duration-300 py-3 px-4 bg-amber-500 hover:bg-transparent hover:text-amber-500">Get started now</div>
-            </div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="center-bottom" class="md:col-span-5 col-span-10 mx-auto">
-                <img src="./img/Frame (1).png" alt="">
-            </div>
+        <div class=" bg-[#ffffff5b] mx-auto mt-[35px] items-center flex justify-between">
+          <div class="title font-oswald text-3xl px-2 shadow-xl py-2">Contacts</div>
+          <div class="delete bga bg-white group1 text-2xl px-2 py-2 hover:bg-[#b3b3b331] relative text-center flex items-center cursor-pointer">🗑
+          </div> 
         </div>
-    
-
-
-    
-    
-        <div data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="text-center grid justify-center my-14">
-            <p class="text-blue-500 duration-300 transition-all uppercase tracking-tighter ease-out font-normal text-xs font-oswaldcursor-pointer hover:underline">Event Technology</p>
-            <h2 class="leading-10 text-4xl font-normal uppercase mt-1 font-oswald">The solution that</h2>
-            <h2 class="leading-10 text-4xl font-normal uppercase mb-10 font-oswald">your business can rely on</h2>
-            <div class="justify-self-center w-2/3 mb-20"> <p class="text-sm leading-7 font-roboto">Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</p></div>
-            <img src="./img/Frame (2).png" alt="">
-            <a href="#" class="uppercase font-oswald leading-6 text-sm cursor-pointer ease-in-out duration-300 no-underline hover:underline hover:text-blue-500">more about us</a>
+        <div class="mx-auto">
+          <ul class="mt-[5px] overflow-y-auto h-[650px]">
+            <li
+              class="flex hover:bg-[#ffffff3f] justify-between items-center cursor-pointer border-b-2 px-4 py-4">
+              <span class="font-oswald text-2xl font-semibold">Behruz</span>
+              <span class="font-oswald opacity-[.8]">994168682</span>
+            </li>
+          </ul>
+          <div class="flex justify-center items-center py-5">
+            <span
+              class="plus font-oswald cursor-pointer w-[40px] h-[40px] rounded-full flex justify-center items-center text-2xl duration-200 hover:text-[40px] hover:shadow-2xl shadow-[#ff3f3f] hover:bg-[#f0f0f0] bg-[#f0f0f08a]"
+              ><span class="font-oswald">+</span></span
+            >
+          </div>
         </div>
-
-
-
-
-        <div class="container mx-auto grid grid-cols-2 justify-around items-center gap-x-10 px-8 py-20">
-            <div data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" class="md:col-span-1 col-span-2 md:w-5/6">
-                <h2 class="font-oswald w-full text-4xl mb-12">Experience design and intelligent marketing for growing brands</h2>
-                <p class="font-roboto text-sm mb-9">The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.</p>
-                <div class="container grid grid-cols-2 mx-auto md:justify-between mb-7 gap-x-8">
-                    <div class="w-full md:col-span-1">
-                        <img src="./img/IMAGE.png" alt="">
-                        <h3 class="font-oswald text-2xl mt-7 mb-4">Customer Support</h3>
-                        <p class="font-roboto text-sm">Make every detail perfect & limit the number of details.</p>
-                    </div>
-                    <div class="w-full md:col-span-1">
-                        <img src="./img/IMAGE (33).png" alt="">
-                        <h3 class="font-oswald text-2xl mt-7 mb-4">Email marketing</h3>
-                        <p class="font-roboto text-sm">Make every detail perfect & limit the number of details.</p>
-                    </div>
-                </div>
-                <button class="font-oswald uppercase text-sm border-2 border-blue-600 bg-blue-600 duration-300 transition-all hover:bg-transparent hover:text-black text-white px-10 py-4 rounded-full mb-16 md:mb-0">Read more</button>
+        <div
+          class="modal hidden absolute z-50 top-0 left-0 w-full h-full bg-[#020202a1]">
+          <div class="w-[80%] mx-auto mt-10 px-3 py-4 bg-white rounded-2xl">
+            <div class="close">
+              <img src="" alt="">
             </div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom" class="md:col-span-1 col-span-2 shadow-lg rounded-lg">
-                <img src="./img/IMAGE (44).png" class="p-0 w-full" alt="">
-                <div class=" text-center px-10 pb-14">
-                    <h2 class="uppercase font-oswald text-3xl my-6 pt-7">Get in touch of the world</h2>
-                    <p class="leading-7 font-roboto mb-4">Your work is going to fill a large part of your life, and the only way to be truly satisfied.</p>
-                    <form class="grid grid-cols-2 gap-x-6 gap-y-8">
-                        <input class="col-span-2 md:col-span-2 sm:col-span-1 lg:col-span-1 font-roboto text-black text-sm leading-10 h-14  pl-6 rounded-md border border-gray-200 bg-gray-100" type="text" value="Enter your name">
-                        <input class="col-span-2 md:col-span-2 sm:col-span-1 lg:col-span-1 font-roboto text-black text-sm leading-10 h-14  pl-6 rounded-md border border-gray-200 bg-gray-100" type="email" value="Enter email">
-                        <input class="col-span-2 font-roboto text-black text-sm leading-10 h-14  pl-6 rounded-md border border-gray-200 bg-gray-100" type="email" value="Enter your subject">
-                        <textarea class="col-span-2 font-roboto text-black text-sm leading-10 h-40 pt-3  pl-6 rounded-md border border-gray-200 bg-gray-100 resize-none" name="Enter your subject" id="" cols="30" rows="10">Enter your subject</textarea>
-                    </form>
-                    <button class="font-roboto text-base text-center transition-all duration-300 hover:bg-transparent hover:text-black rounded-full mt-10 bg-blue-600 w-full py-4 border-2 text-white border-blue-600">SENT MESSAGE</button>
-                </div>
+            <h2 class="font-oswald text-[35px] mb-6">New Contact:</h2>
+            <input
+              class="name font-oswald border-b-2 placeholder:font-oswald px-2 mb-5 outline-none w-full"
+              type="text"
+              placeholder="name" />
+            <input
+              class="number font-oswald border-b-2 placeholder:font-oswald px-2 mb-5 outline-none w-full"
+              type="text"
+              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+              placeholder="phone number" />
+            <label class="font-oswald text-[#9c9c9c] px-2"
+              >color of text:</label
+            >
+            <input
+              class="color font-oswald border-b-2 placeholder:font-oswald px-2 mb-5 outline-none w-full border-0 bg-[#e7e7e7] rounded-2xl"
+              type="color"
+              placeholder="phone number" />
+            <div class="flex justify-center">
+              <button
+                class="px-10 save hover:border-black font-oswald hover:text-[#ffffff] duration-200 hover:bg-[#000] text-[#9c9c9c] py-2 rounded-full border-2">
+                Save
+              </button>
             </div>
+          </div>
         </div>
-
-
-
-
-        <div class="container grid grid-cols-2 mx-auto items-center gap-10 my-24 px-8">
-            <div data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" class="col-span-2 md:col-span-1"><img src="./img/Frame (3).png" alt=""></div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom" class="col-span-2 md:col-span-1">
-                <h2 class="uppercase font-oswald text-5xl mb-12">See why we are trusted the world over</h2>
-                <p class="font-roboto text-sm mb-14">The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.</p>
-                <ul class="border shadow-md rounded md:ml-10 drop-shadow-lg z-0">
-                    <li class="mx-10 py-7 uppercase font-oswald text-base border-b">Do you provide customer support?</li>
-                    <li class="mx-10 py-7 uppercase font-oswald text-base border-b">How much traffic can the hosting handle?</li>
-                    <li class="mx-10 py-7 uppercase font-oswald text-base border-b">Do you have any questions for us?</li>
-                    <li class="mx-10 py-7 uppercase font-oswald text-base">What is your return policy?</li>
-                </ul>
-            </div>
-        </div>
-
-
-
-        <div class="container grid md:grid-cols-2 mx-auto items-center my-24 px-8 gap-10">
-            <div data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" class="w-11/12 col-span-2 md:col-span-1">
-                <h1 class="uppercase font-oswald text-4xl">Marketing and digital products that grow businesses!</h1>
-                <p class="text-sm leading-6 font-roboto my-12">The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.</p>
-                <div class="grid grid-cols-2 justify-between w-full">
-                    <span class="font-oswald text-lg">Research</span>
-                    <span class="font-oswald text-lg text-right">85%</span>
-                    <div class="w-full bg-slate-200 rounded-full h-1 mb-8 mt-2 relative col-span-2"><div class="absolute left-0 h-1 top-0 bg-blue-600" style="width: 85%;"></div></div>
-                </div>
-                <div class="grid grid-cols-2 justify-between w-full">
-                    <span class="font-oswald text-lg">Strategy Development</span>
-                    <span class="font-oswald text-lg text-right">72%</span>
-                    <div class="w-full bg-slate-200 rounded-full h-1 mb-8 mt-2 relative col-span-2"><div class="absolute left-0 h-1 top-0 bg-purple-600" style="width: 72%;"></div></div>
-                </div>
-                <div class="grid grid-cols-2 justify-between w-full">
-                    <span class="font-oswald text-lg">Education</span>
-                    <span class="font-oswald text-lg text-right">65%</span>
-                    <div class="w-full bg-slate-200 rounded-full h-1 mb-8 mt-2 relative col-span-2"><div class="absolute left-0 h-1 top-0 bg-orange-400" style="width: 65%;"></div></div>
-                </div>
-            </div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom" class="shadow-lg rounded-lg  col-span-2 md:col-span-1">
-                <div class="w-full">
-                    <img class="w-full" src="./img/IMAGE (2).png" alt="">
-                </div>
-                <div class="text-center px-8 sm:px-28 md:px-8 lg:px-28">
-                    <h2 class="font-oswald text-5xl uppercase mt-8">$45.00</h2>
-                    <p class="font-oswald text-sm uppercase mt-2">Per month</p>
-                    <ul class="text-start uppercase text-xs font-oswald my-8">
-                        <li class="my-3 uppercase leading-6">Meet and Greet with Speakers</li>
-                        <li class="my-3 uppercase leading-6">Video Facilities</li>
-                        <li class="my-3 uppercase leading-6">Speaker Facilities</li>
-                        <li class="my-3 uppercase leading-6">Questions & Answers</li>
-                        <li class="my-3 uppercase leading-6">Questions & Answers</li>
-                        <li class="my-3 uppercase leading-6">Dedicated account manager</li>
-                    </ul>
-                    <button class="mt-10 mb-6 bg-blue-600 transition-all duration-300 border-2 border-blue-600 px-10 py-4 text-white rounded-full hover:bg-transparent hover:text-black">Get Ticket</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="container mx-auto gap-5 lg:gap-x-10 my-24 grid grid-cols-3 text-center">
-            <div data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" class="border md:col-span-1 col-span-3 xl:mx-10 md:mx-auto mx-10  grid justify-center border-gray-200 rounded-xl p-11">
-                <p class="font-roboto text-sm">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "</p>
-                <div class="grid justify-center mb-5"><img src="./img/IMAGE (3).png" alt=""></div>
-                <h2 class="font-oswald text-lg">Martin Eduard</h2>
-                <h3 class="mb-2 font-oswald text-sm">CEO of Marketing</h3>
-                <div class="grid justify-center"><img src="./img/Frame.png" alt=""></div>
-            </div>
-            <div data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="border md:col-span-1 col-span-3  xl:mx-10 md:mx-auto mx-10  grid justify-center border-gray-200 rounded-xl p-11">
-                <p class="font-roboto text-sm">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "</p>
-                <div class="grid justify-center mb-5"><img src="./img/IMAGE (4).png" alt=""></div>
-                <h2 class="font-oswald text-lg">Martin Eduard</h2>
-                <h3 class="mb-2 font-oswald text-sm">CEO of Marketing</h3>
-                <div class="grid justify-center"><img src="./img/Frame.png" alt=""></div>
-            </div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom" class="border md:col-span-1 col-span-3 xl:mx-10 md:mx-auto mx-10 grid justify-center border-gray-200 rounded-xl p-11">
-                <p class="font-roboto text-sm">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "</p>
-                <div class="grid justify-center mb-5"><img src="./img/IMAGE (5).png" alt=""></div>
-                <h2 class="font-oswald text-lg">Martin Eduard</h2>
-                <h3 class="mb-2 font-oswald text-sm">CEO of Marketing</h3>
-                <div class="grid justify-center"><img src="./img/Frame.png" alt=""></div>
-            </div>
-        </div>
-
-
-
-        
-
-        <div data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="relative text-center container grid grid-cols-1 justify-center mx-auto">
-                <img src="./img/IMAGE (6).png" class="absolute -z-10 left-0 right-0 m-auto top-0 bottom-0" alt="">
-            <a href="#" class="transition-all duration-300 hover:underline font-oswald text-xs text-blue-600">an unique marketing template</a>
-            <div class="grid justify-center justify-self-center my-6 md:w-1/2">
-                <p class="text-2xl font-roboto">"Any strategy that gets a message to rise above the clutter is terrific from the advertiser's perspective. Even if it's not much of a secret, it's still a pretty good marketing idea."</p>
-                <span class="my-7 justify-self-center rounded-full w-4/5 mt-12 lg:w-1/3 font-oswald uppercase text-sm px-10 py-4 bg-blue-600 border-2 border-blue-600 transition-all duration-300 text-white hover:bg-transparent hover:text-black">Meet the team</span>
-            </div>
-        </div>
-
-
-
-        <div  data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="grid grid-cols-2 md:grid-cols-3 gap-8 lg:grid-cols-6 container mx-auto my-24">
-            <img class="justify-self-center" src="./img/IMAGE (7).png" alt="">
-            <img class="justify-self-center" src="./img/IMAGE (8).png" alt="">
-            <img class="justify-self-center" src="./img/IMAGE (9).png" alt="">
-            <img class="justify-self-center" src="./img/IMAGE (10).png" alt="">
-            <img class="justify-self-center" src="./img/IMAGE (11).png" alt="">
-            <img class="justify-self-center" src="./img/IMAGE (12).png" alt="">
-        </div>
-
-
-
-        <div class="container mx-auto grid grid-cols-2 gap-x-4 my-24">
-            <div data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" class="col-span-2 justify-self-center text-center">
-                <a href="#" class="transition-all duration-300 hover:underline font-oswald text-xs text-blue-600">FROM OUR BLOG</a>
-                <h2 class="font-oswald uppercase text-4xl mt-1 mb-14">Recent News & Updates</h2>
-            </div>
-            <div  data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" class="md:col-span-1 col-span-2 grid gap-4">
-                <div class="grid grid-cols-2 cursor-pointer items-center border border-gray-200 rounded-xl">
-                    <div class="p-5"><img src="./img/IMAGE (13).png" alt=""></div>
-                    <div class="">
-                        <a href="#" class="transition-all duration-300 hover:underline font-oswald text-xs text-blue-600">DESIGN</a>
-                        <h2 class="font-oswald text-xl mb-6">Best Blogs To Follow About Web Design</h2>
-                        <p class="font-roboto text-sm leading-6">Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.</p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 cursor-pointer items-center border border-gray-200 rounded-xl">
-                    <div class="p-5"><img src="./img/IMAGE (14).png" alt=""></div>
-                    <div class="">
-                        <a href="#" class="transition-all duration-300 hover:underline font-oswald text-xs text-blue-600">TUTORIAL</a>
-                        <h2 class="font-oswald text-xl mb-6">5 Great Web Design Resources</h2>
-                        <p class="font-roboto text-sm leading-6">Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom" class="md:col-span-1 col-span-2 p-5 cursor-pointer relative border border-gray-200 rounded-xl">
-                <img class="relative justify-self-center w-full h-full object-cover self-center" src="./img/IMAGE (15).png" alt="">
-                <h2 class="absolute w-10/12 bottom-9 left-9 uppercase font-oswald text-4xl">What Will Website Be Like In 100 Years?</h2>
-            </div>
-        </div>
-
-
-        <div  data-aos="zoom-in-up" class="grid mx-auto gap-y-8 px-24 bg-black text-white grid-cols-1">
-            <div class="grid grid-cols-3 gap-10 md:gap-0 xl:gap-x-40">
-                <img class="col-span-3 mt-7 md:col-span-1 " src="./img/IMAGE (22).png" alt="">
-                <ul class="col-span-3 md:col-span-2 text-left my-7 md:text-right grid grid-cols-6">
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">Style-guide</li>
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">Licenses</li>
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">Changelog</li>
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">Terms</li>
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">Password</li>
-                    <li class="text-left py-4 cursor-pointer md:text-right text-xs transition-all duration-200 hover:text-blue-600 hover:underline font-oswald">404</li>
-                </ul>
-            </div>
-            <div class="md:flex block justify-between mb-10 items-end">
-                <div class="text-gray-400 text-xs uppercase font-oswald">Created with love by <span class="cursor-pointer uppercase hover:underline text-gray-500 font-oswald text-sm">Dorian Hoxha</span> | Powered by <span class="cursor-pointer uppercase hover:underline text-gray-500 font-oswald text-sm">Webflow</span></div>
-                <div class="grid md:grid-cols-4 grid-cols-4 mt-9 gap-2">
-                    <img class="cursor-pointer" src="./img/Frame (8).png" alt="">
-                    <img class="cursor-pointer" src="./img/Frame (5).png" alt="">
-                    <img class="cursor-pointer" src="./img/Frame (9).png" alt="">
-                    <img class="cursor-pointer" src="./img/Frame (7).png" alt="">
-                </div>
-            </div>
-        </div>
-</body>
-<script src="./scr/main.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+      </div>
+    </div>
+  </body>
+  <script src="./scr/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
-</script>
+  </script>
+  <script src="./scr/main.js"></script>
 </html>
